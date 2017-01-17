@@ -1,0 +1,13 @@
+{
+  "page": {
+    "name": "Homepage",
+    "description": "This is the homepage",
+    "language": "en"
+  },
+  "datasources": [
+    "greeting"
+  ],
+  "route": {
+    "path": "/"
+  }
+}

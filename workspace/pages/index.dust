@@ -1,0 +1,6 @@
+{>"partials/header"/}
+
+<h1>All being well we should see "Hello world!" below:</h1>
+<p><em>{greeting.results[0].message}</em></p>
+
+{>"partials/footer"/}

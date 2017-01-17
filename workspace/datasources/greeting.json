@@ -1,0 +1,12 @@
+{
+  "datasource": {
+    "key": "greeting",
+    "name": "A statically loaded greeting.",
+    "source": {
+      "type": "static",
+      "data": {
+        "message": "hello world!"
+      }
+    }
+  }
+}

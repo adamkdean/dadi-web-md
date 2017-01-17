@@ -1,0 +1,17 @@
+{
+  "name": "dadi-web-md",
+  "version": "0.0.1",
+  "author": "Adam K Dean <akd@dadi.co>",
+  "description": "DADI Web with markdown",
+  "main": "main.js",
+  "scripts": {
+    "start": "NODE_ENV=development node main.js"
+  },
+  "dependencies": {
+    "@dadi/web": "^1.7.3"
+  },
+  "engines": {
+    "node": ">=4.6.0",
+    "npm": ">3.0.0"
+  }
+}
