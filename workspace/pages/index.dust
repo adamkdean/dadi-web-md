@@ -1,6 +1,13 @@
 {>"partials/header"/}
 
-<h1>All being well we should see "Hello world!" below:</h1>
-<p><em>{greeting.results[0].message}</em></p>
+<h1>Posts</h1>
+{#posts.results}
+  <div>
+    <h1><a href="/posts/{.metadata.slug}">{.metadata.title}</a></h1>
+    {.contentHtml|s}
+  </div>
+{:else}
+  <p>Sorry, there are no posts!</p>
+{/posts.results}
 
 {>"partials/footer"/}

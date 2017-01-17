@@ -1,0 +1,10 @@
+{
+  "datasource": {
+    "key": "posts",
+    "name": "A statically loaded greeting.",
+    "source": {
+      "type": "markdown",
+      "path": "workspace/posts"
+    }
+  }
+}

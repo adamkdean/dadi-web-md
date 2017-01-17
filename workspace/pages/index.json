@@ -1,11 +1,10 @@
 {
   "page": {
-    "name": "Homepage",
-    "description": "This is the homepage",
+    "name": "Index",
     "language": "en"
   },
   "datasources": [
-    "greeting"
+    "posts"
   ],
   "route": {
     "path": "/"
