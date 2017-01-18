@@ -5,6 +5,13 @@
     "source": {
       "type": "markdown",
       "path": "workspace/posts"
+    },
+    "count": 10,
+    "sort": {
+      "date": -1
+    },
+    "filter": {
+      "published": true
     }
   }
 }
