@@ -4,6 +4,7 @@
 {#posts.results}
   <div>
     <h1><a href="/posts/{.metadata.slug}">{.metadata.title}</a></h1>
+    <h2>Posted {.metadata.date}</h2>
     {.contentHtml|s}
   </div>
 {:else}
