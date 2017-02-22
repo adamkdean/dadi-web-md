@@ -1,12 +1,13 @@
 {
   "datasource": {
     "key": "posts",
-    "name": "A statically loaded greeting.",
+    "name": "Blog posts",
     "source": {
       "type": "markdown",
       "path": "workspace/posts"
     },
-    "count": 10,
+    "paginate": true,
+    "count": 5,
     "sort": {
       "date": -1
     },

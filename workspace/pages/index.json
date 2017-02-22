@@ -8,5 +8,8 @@
   ],
   "route": {
     "path": "/"
+  },
+  "settings": {
+    "passFilters": true
   }
 }
